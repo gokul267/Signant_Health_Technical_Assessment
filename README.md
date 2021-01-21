@@ -1,7 +1,7 @@
 
-# Signant Health Technical Assessment
+# Signant Health Technical Assessment - Test Automation Specialist
 
-This Repository is structured in same way as the questions asked in the assessment description mail. I have listed the assessment questions and the respective files containing answers below:
+This repository is structured in same way as the questions asked in the assessment description mail. I have listed the assessment questions and the respective files containing answers below:
 
 **Testing Task**
 <br/>
