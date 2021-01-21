@@ -6,9 +6,10 @@ Repository is structured in same way as the questions asked in the assessment de
 I have listed the questions and the respective files containing answers below:
 
 **Testing Task**
+<br/>
 | Assessment | Answer Folder/File |
-|-----------|-----------:|
-|Report of executed tests | UI_Testing_Report.html & API_Testing_Report.html|
+|-----------|-----------|
+|Report of executed tests | UI_Testing_Report.html <br/> API_Testing_Report.html|
 |Report of found issues/bugs | Issues and Bugs.txt|
 |Answers to the questions related testing and testability | Answers to test and testability.txt|
 |Exploratory Testing Report  | Exploratory Tests.xls|
@@ -17,8 +18,10 @@ I have listed the questions and the respective files containing answers below:
 
 
 **Coding Task**
-
-Working stable application (Freely Distributable) of test automation implementation ==> demo_app_APITesting & demo_app_UITesting
-Instructions how to run it and short description of components, including external libraries ==> Instructions.txt
-Description about taken approach and potential gaps in application ==> Test approach and Potential gaps.txt
-How much time it took, there is no time limit as such. Remember to return the task when agreed or let us know if you run late. ==> Efforts Required.txt
+<br/>
+| Assessment | Answer Folder/File |
+|-----------|-----------|
+|Working stable application (Freely Distributable) of test automation implementation | demo_app_APITesting <br/> demo_app_UITesting |
+|Instructions how to run it and short description of components, including external libraries | Instructions.txt |
+|Description about taken approach and potential gaps in application | Test approach and Potential gaps.txt |
+|How much time it took, there is no time limit as such. Remember to return the task when agreed or let us know if you run late. | Efforts Required.txt |
