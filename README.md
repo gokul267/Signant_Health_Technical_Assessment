@@ -3,10 +3,11 @@
 
 Repository is structured in same way as the questions asked in the assessment description mail.
 
-I have listed the questions and the respective files as answers below:
+I have listed the questions and the respective files containing answers below:
 
 **Testing Task**
-
+| Assessment | Answer Folder/File |
+|-----------|-----------:|
 |Report of executed tests | UI_Testing_Report.html & API_Testing_Report.html|
 |Report of found issues/bugs | Issues and Bugs.txt|
 |Answers to the questions related testing and testability | Answers to test and testability.txt|
