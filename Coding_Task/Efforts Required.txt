@@ -1,0 +1,12 @@
+----------------------------------------------------
+Effort breakdown of the assignment ( approx. time taken)
+----------------------------------------------------
+
+Environment & application setup 	- 3 hours
+Exploratory tests 			- 3 hours
+UI Test automation 			- 1 hour
+API Test automation 			- 2 hours
+Report Generation & documentation   	- 3 hours
+
+TOTAL TIME SPENT			- 12 hours
+----------------------------------------------------

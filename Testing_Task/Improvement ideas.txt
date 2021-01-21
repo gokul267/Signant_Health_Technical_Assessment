@@ -1,0 +1,17 @@
+Improvement ideas for the application
+-------------------------------------
+
+1. Add pagination for APIs E.g. API GET /api/users
+
+2. Data validation and help text in the UI. 
+	- E.g. After successful user registration, the login page is displayed. There is no message displayed like 'user registered successfully', which makes the user guess that the registration is successful
+
+3. User data validation can be enabled. 
+	- Any data is currently accepted in the application for names, password and phone. 
+
+4. Password lock, after multiple failed login attempts. 
+	- This is critical as there are no password criteria set in the application. Captcha can also be enabled
+	- An option to reset the password can also be enabled
+
+5. Enable SSL implementation for application. 
+	- User information is highly vulnerable in non SSL interfaces especially during login, register etc

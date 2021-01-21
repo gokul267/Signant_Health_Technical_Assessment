@@ -1,0 +1,43 @@
+-----------------------------------------------------------------------------------------------
+Report of issues/bugs
+-----------------------------------------------------------------------------------------------
+UI TESTING
+
+--> Please refer to my UI_Testing_report.html and Exploratory test report to check all the tests run
+
+During the exploratory tests, There were many concerns/gaps observed in the application UI. All are not captured in my automation tests. These should be verified with the Business/Application development team about its criticality, since these gaps can also be part of the acceptance criteria.
+
+-----------------------------------------------------------------------------------------------
+API TESTING
+
+--> Please refer to API_testing_report.html and Exploratory test report to check all the tests run.
+
+There were two issues identified:
+
+* API GET /api/users/{username} - Failed while getting the user information for a user which is not registered in the environment. 
+
+	Expected result : HTTP 404 
+	Actual result   : HTTP 500
+
+* API PUT /api/users/{username} - Failed while updating user information for a user.
+
+	Expected result : HTTP 201
+	Actual result   : HTTP 500
+
+	Fix provided:
+	There is an app issue in api.py line 90 because iteritems() function is omitted in python 3. My environment is in python 3.9.1, so I changed the data.iteritems() as data.items() to continue with my tests. I am not sure if this bug is added intentionally.
+
+* API PUT /api/users/{username} - Failed while updating user information for an invalid user.
+
+	Expected result : HTTP 403
+	Actual result   : HTTP 201
+
+	Note: This was tested after the fix in previous bug
+
+* API PUT /api/users/{username} - Failed while updating user information for an valid user with empty request
+
+	Expected result : HTTP 403
+	Actual result   : HTTP 201
+
+	Note: This was tested after the fix in previous bug
+-----------------------------------------------------------------------------------------------

@@ -1,0 +1,61 @@
+Steps to setup and run the test automation for UI and API testing of demo app
+##############################################################################################################
+ENVIRONMENT SETUP:
+
+Python version : 3.9.1 
+
+Directories with Python.exe and Python/scripts are included into the PATH variable of the environment
+
+Below libraries are included into Python package through pip install
+
+Package                        Version
+------------------------------ ---------
+jsonpath                       0.82
+pytest                         6.2.1
+pytest-html                    3.1.1
+requests                       2.25.1
+robotframework                 3.2.2
+robotframework-seleniumlibrary 4.5.0
+selenium                       3.141.0
+
+Browser    : google chrome Version 87.0.4280.141
+Web driver : chrome driver version 87.0.4280.88
+
+##############################################################################################################
+UI TESTING
+
+Components in test suite
+-------------------------
+--> TestSuite.robot
+--> TestData.resource
+--> Common.resource
+--> Keywords.resource
+
+Steps to run the UI test automation
+-----------------------------------
+1.Update the test data in TestData.resource
+2.Basic run script in command prompt:
+	>> robot <App directory>\demo_app_UITesting\TestSuite.robot
+
+##############################################################################################################	
+API TESTING
+
+Components in test suite
+------------------------
+--> TestCases
+--> common	
+	|-->testData
+	|-->response_handler
+	|-->test_response_header
+
+Steps to run the API test automation
+------------------------------------
+1. Basic run script in command prompt
+	>> pytest -q <App directory>\demo_app_APITesting\TestCases --html=report.html
+
+Steps to run the unit tests for response_handler class
+------------------------------------------------------
+1. Basic run script in command prompt:
+	>> python -m unittest <App directory>\demo_app_APITesting\common\test_response_header.py
+
+##############################################################################################################	

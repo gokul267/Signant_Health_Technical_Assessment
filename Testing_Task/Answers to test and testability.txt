@@ -1,0 +1,46 @@
+How do you review code? 
+
+	1. Peer to peer code reviews is more effective to review the code. This helps in maintaining code standards, identify missed exception handling and review business requirement understanding
+	2. Application Code should be humanly readable with proper documentation, comments and indentation
+	3. Effective unit tests also ensure the quality of the code developed
+
+##########################################################################################
+How do you enforce coding standards? 
+
+	1. This can be enforced by the peer to peer code reviews. I conduct it before the application sprint release. This helps in maintaining code standards, identify missed exception handling, etc
+	2. There can also be flexible custom coding standards in deliverables along with industry standards, as applications in an organisation can have its own testing/coding challenges.
+	3. Code coverage tools like Sonarqube can be used to improve the code quality
+
+##########################################################################################
+How do you plan what kind of approach you take for test automation - what libraries to use, how does it work in couple of years, how to make it easy to maintain, etc? What are the main points to consider? 
+
+1. Understand the core business objectives of the application, list the core features and prioritise the tests to be conducted E.g. in UI, functional and non-functional aspects. This gives us an idea of libraries to be used - external or custom-built internal libraries
+2. Constant Application changes for business requirements is challenging in test automation. However, this can be approached through agile delivery practices and CI/CD pipeline configuration, in a similar approach as application changes are delivered by development teams.
+
+Points to consider:
+	1. Modularisation and reusability of the test automation code. This is easily achieved in tools like robot framework
+	2. Implement agile/DevOps way of test automation code delivery
+
+##########################################################################################
+Code testability, how do you enforce it? 
+
+	1. Split the code into smaller modules that can be unit tested easily instead of a single large module. This also helps in identifying the reusable components in the application
+	2. Define functions in right complexity to support unit tests
+	3. Proper exception handling
+	4. Place debug logs across the application to quickly locate the point of failure
+
+##########################################################################################
+How do you make sure that the product is testable? 
+
+	1. Clear documentation of the features in the application
+	2. Ability to see a result/outcome for a particular feature in the application( UI effect, API response etc)
+	3. UI elements defined should follow proper standards and it should be consistent for future changes.
+	4. Proper exception handling
+	5. Possibility to clear user data in DB, to enable effective End to End test automation
+
+##########################################################################################
+	
+
+
+
+
