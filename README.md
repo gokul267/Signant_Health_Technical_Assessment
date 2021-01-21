@@ -1,21 +1,21 @@
-# Signant_Health_Technical_Assessment
-Signant Health Technical Assessment
+
+# Signant Health Technical Assessment
 
 Repository is structured in same way as the questions asked in the assessment description mail.
 
 I have listed the questions and the respective files as answers below:
 
-Testing Task: 
+**Testing Task**
 
-Report of executed tests ==> UI_Testing_Report.html & API_Testing_Report.html
-Report of found issues/bugs ==> Issues and Bugs.txt
-Answers to the questions related testing and testability ==> Answers to test and testability.txt
-Exploratory Testing Report  ==> Exploratory Tests.xls
-Tell us what improvement would you propose for the app ==> Improvement Ideas.txt
-If you would be given a week to do quality assurance for this product, briefly plan the tasks based on your skills, knowledge and expertise ==> Effort Estimation.xls
+|Report of executed tests | UI_Testing_Report.html & API_Testing_Report.html|
+|Report of found issues/bugs | Issues and Bugs.txt|
+|Answers to the questions related testing and testability | Answers to test and testability.txt|
+|Exploratory Testing Report  | Exploratory Tests.xls|
+|Tell us what improvement would you propose for the app | Improvement Ideas.txt|
+|If you would be given a week to do quality assurance for this product, briefly plan the tasks based on your skills, knowledge and expertise | Effort Estimation.xls|
 
 
-Coding Task: 
+**Coding Task**
 
 Working stable application (Freely Distributable) of test automation implementation ==> demo_app_APITesting & demo_app_UITesting
 Instructions how to run it and short description of components, including external libraries ==> Instructions.txt
