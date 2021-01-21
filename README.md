@@ -1,13 +1,11 @@
 
 # Signant Health Technical Assessment
 
-Repository is structured in same way as the questions asked in the assessment description mail.
-
-I have listed the questions and the respective files containing answers below:
+This Repository is structured in same way as the questions asked in the assessment description mail. I have listed the assessment questions and the respective files containing answers below:
 
 **Testing Task**
 <br/>
-| Assessment | Answer Folder/File |
+| Assessment | Answer Folders/Files |
 |-----------|-----------|
 |Report of executed tests | UI_Testing_Report.html <br/> API_Testing_Report.html|
 |Report of found issues/bugs | Issues and Bugs.txt|
@@ -19,7 +17,7 @@ I have listed the questions and the respective files containing answers below:
 
 **Coding Task**
 <br/>
-| Assessment | Answer Folder/File |
+| Assessment | Answer Folders/Files |
 |-----------|-----------|
 |Working stable application (Freely Distributable) of test automation implementation | demo_app_APITesting <br/> demo_app_UITesting |
 |Instructions how to run it and short description of components, including external libraries | Instructions.txt |
