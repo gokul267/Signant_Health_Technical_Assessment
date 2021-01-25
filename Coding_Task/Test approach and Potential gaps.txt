@@ -37,7 +37,6 @@ Unit tests are also configured to check the getters configured in the constructo
 ###############################################################################################
 Some potential gaps in the app observed:
 ---------------------------------------
-
 UI and API features are not similar
 	- Empty values are accepted for first name, last name and phone through API, but not when registering through UI
 	
