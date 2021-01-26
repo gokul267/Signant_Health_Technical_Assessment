@@ -2,7 +2,7 @@ import json
 from common.response_handler import ResponseMessage
 from common.testData import *
 
-#Test update user information for given user name
+#Test update user information for given user name for an invalid user
 def test_put_userInfo_InvalidUser_completeData():
     print('Update user Information API test started')
     
@@ -45,7 +45,5 @@ def test_put_userInfo_InvalidUser_completeData():
     phone = updateUserInfo.get_phone()
     
     assert phone == updatedPhone, 'Validation failed for phone : Expected = ' + updatedPhone +', found = ' + phone
-    
-    
     
     print('Update user information API tested successfully')

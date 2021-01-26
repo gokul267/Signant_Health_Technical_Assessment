@@ -1,5 +1,5 @@
 BASE_URL = "http://localhost:8080"
-TOKEN = 'MzgxNzQ3ODU2MTA3MzM1MjEyNjk5Njc2MTcxNTgzNTI5NTY0Nw=='
+TOKEN = 'MTkyMjk4MTQ1OTU5NTkwMDczMzI1MTg3MjI4OTcxNDQyOTI4MjI1'
 
 #User who is successfully registered
 validUser = 'Gokul'
@@ -29,3 +29,6 @@ updateUserData2 = """{
 updateUserData3 = """{
                         "": "value3"
                 }"""
+                
+#Test to update user info with empty keys for user mentioned above as validUser
+updateUserData4 = """{}"""
