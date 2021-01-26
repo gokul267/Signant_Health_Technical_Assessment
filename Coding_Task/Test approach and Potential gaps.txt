@@ -37,7 +37,6 @@ Unit tests are also configured to check the getters configured in the constructo
 ###############################################################################################
 Some potential gaps in the app observed:
 ---------------------------------------
-
 UI and API features are not similar
 	- Empty values are accepted for first name, last name and phone through API, but not when registering through UI
 	
@@ -46,8 +45,5 @@ User data validation should be enabled.
 
 App uses deprecated functions.
 	- There is an issue in api.py line 90 because iteritems() function is omitted in python 3. My environment is in python 3.9.1, so I changed the data.iteritems() as data.items() to continue with my tests. I am not sure if this bug is added intentionally.
-
-HeartBeat endpoint for the application
-	- It can be one of the prerequisites for the test run
 
 ###############################################################################################
